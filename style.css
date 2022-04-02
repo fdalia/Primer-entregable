@@ -1,3 +1,61 @@
-#nombre {
-    color: blueviolet;
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;    
+}
+
+body {
+    background-image: url(https://fotografias.antena3.com/clipping/cmsimages02/2018/08/19/47E25A17-5723-414F-ACF6-81E83E4A6197/58.jpg);
+}
+
+#barra-navegable a {
+    text-decoration: none;
+}
+
+#encabezado {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 100%;
+    grid-row-gap: 10px;    
+}
+
+#encabezado #nombre {
+    background-color: rgb(245, 252, 255, 0.2);
+    height: 80px;    
+    border-radius: 20px;
+    text-align: center;                
+}
+
+#encabezado #nombre h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    color: #859dd4;
+    margin: auto;
+    align-self: center;
+}
+
+#encabezado #linkedin {
+    justify-self: center;        
+    padding: 0px 10px;
+    background-color: #0658d4;
+    border-radius: 20px;
+}
+
+#encabezado #linkedin p {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;        
+}
+
+#encabezado #linkedin p a {
+    text-decoration: none;        
+}
+
+.titular {
+    font-size: 18px;
+}
+
+footer {
+    background-color: rgb(245, 252, 255, 0.2);
+    height: 30px;
 }
